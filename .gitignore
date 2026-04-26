@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.eggs/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Backend local DB/log artifacts
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+.pnpm-store/
+
+# Vite cache
+frontend/.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Misc
+*.tmp
+*.swp
